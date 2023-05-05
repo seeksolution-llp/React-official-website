@@ -1,0 +1,91 @@
+
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bimage{
+    background-image: url(./assets/bg-laptop.jpg);
+}
+
+.btn{
+    cursor: pointer;
+
+    border: 1 px whitesmoke;
+    /* background-color: #eb6121; */
+    color: #fff;
+    transition: 0.4s all;
+     text-decoration: none;
+     overflow: hidden;
+    
+}
+
+.btn:hover{
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 5px #97b1bf  ;
+    color: #000;
+}
+.btn:focus{
+    outline: none;
+}
+
+
+.btn2:hover{
+    background-color: #7e22ce;
+    box-shadow: 0px 2px 10px 5px #97b1bf ;
+    color: #000;
+}
+.btn2:focus{
+    outline: none;
+}
+
+.global{
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('https://innovittglobal.com/assets/images/Clients-Associate.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+
+    /* background-image: url("https://innovittglobal.com/assets/images/500.jpg"); */
+
+}
+/* .getStart{
+
+    background-image: url("https://innovittglobal.com/assets/images/Clients-Associate.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+.getStart{
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('https://innovittglobal.com/assets/images/Clients-Associate.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+}
+
+
+.aboutbg{
+   
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    height:250px;
+    
+
+}
+.aboutbg1{
+   
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2) ), url('./assets/contact1.png');
+     background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    
+
+}
